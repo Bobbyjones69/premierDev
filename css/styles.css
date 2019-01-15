@@ -1,0 +1,28 @@
+#contenu1{
+	box-sizing: border-box;
+	border: 3px solid black;
+	border-radius: 15px;
+	background-color: #F7819F;
+}
+#contenu2{
+	box-sizing: border-box;
+	border: 3px solid black;
+}
+#contenu3{
+	box-sizing: border-box;
+	border: 3px solid black;
+}
+#contenu4{
+	box-sizing: border-box;
+	border: 3px solid black;
+}
+
+img {
+    max-width: 100%;
+	height: auto;
+}
+
+
+.bouton{
+background-image : url("/images/bouton1.png");
+}

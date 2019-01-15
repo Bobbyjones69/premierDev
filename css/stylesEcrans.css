@@ -1,0 +1,56 @@
+#divheader{
+width: 600px;	
+height: 100px;
+border: 3px solid black;
+margin-left: 35%;
+}
+#menu{
+width: 600px;	
+height: 20px;
+border: 3px solid black;
+margin-left: 35%;
+}
+#contenu1{
+width: 300px;	
+height: 200px;
+border: 3px solid black;
+margin-left: 35%;
+border-radius: 15px;
+background-color: #F7819F;
+
+}
+
+
+#contenu2{
+width: 300px;	
+height: 300px;
+border: 3px solid black;
+
+
+}
+
+#contenu3{
+width: 600px;	
+height: 200px;
+border: 3px solid black;
+margin-left: 35%;
+}
+
+#contenu4{
+width: 600px;	
+height: 200px;
+border: 3px solid black;
+margin-left: 35%;
+}
+
+#basdepage{
+width: 600px;	
+height: 80px;
+border: 3px solid black;
+margin-left: 35%;
+}
+
+
+.bouton{
+background-image : url("/images/bouton1.png");
+}
