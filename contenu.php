@@ -32,12 +32,10 @@ while ($donnees = $reponse->fetch())
 
 </table>
 
-
 <form name="form3" action="suppression.php" method="post">
 <input id="idhid" name="idhid" type="hidden" value=<?php echo $donnees['id']; ?> >
 <input name="suppression" type="submit" src="images/supprimer.png" value="x">
 </form>
-
 
 </p>
 <?php } $reponse->closeCursor(); ?>

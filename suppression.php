@@ -17,5 +17,5 @@ $req->closeCursor();
 
 <?php
 echo 'message supprimer id =' . htmlspecialchars($_POST["idhid"]) . '!';
-header('Location: tchat.php');
+header('Location: index.php');
 ?>

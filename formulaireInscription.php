@@ -9,7 +9,7 @@ catch(Exception $e)
 }
 $req = $bdd->prepare('INSERT INTO login (login,pass,date) VALUES(?, ?, CURDATE())');
 $req->execute(array($_POST['login'], $_POST['pass']));
-header('Location: inscription.php');
+header('Location: index.php');
 ?>
 
 

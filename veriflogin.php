@@ -18,7 +18,7 @@ if ($_POST['pass']==$resultat['pass'])
 session_start();
 $_SESSION['id'] = $resultat['id'];
 $_SESSION['login'] = $_POST['login'];
-header('Location: tchat.php');
+header('Location: index.php');
 }
  else{ echo "mot de passe incorecte";}   
 ?>

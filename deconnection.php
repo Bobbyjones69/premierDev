@@ -15,5 +15,5 @@ session_destroy();
 setcookie('login', '');
 
 setcookie('pass_hache', '');
-header('Location: tchat.php');
+header('Location: index.php');
 ?>

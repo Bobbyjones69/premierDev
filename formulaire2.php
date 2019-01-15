@@ -9,5 +9,5 @@ catch(Exception $e)
 }
 $req = $bdd->prepare('INSERT INTO tchat2 (login,texte) VALUES(?, ?)');
 $req->execute(array($_POST['login'], $_POST['texte']));
-header('Location: tchat.php');
+header('Location: index.php');
 ?>

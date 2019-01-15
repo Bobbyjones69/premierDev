@@ -6,7 +6,7 @@
 <body>
 
     <div id="contenu1">
-	<p>formulaire d'envoi de message</p>
+	<p>formulaire d'inscription</p>
 	<form name="inscription" action="formulaireInscription.php" method="post">
 	<ol>
 		<li><input type="text" placeholder="login" name="login"></li>
@@ -16,5 +16,4 @@
 	</ol>
 	</div>
  	</form>
-
  </body>
